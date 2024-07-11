@@ -40,6 +40,18 @@ classDiagram
     }
 
     class Iphone {
+         + tocar() 
+        + pausar() 
+        + selecionarMusica(String musica)
+
+         + ligar(String Numero) 
+        + atender() 
+        + iniciarCorreioVoz()
+
+         + exibirPagina(String url) 
+        + adicionarNovaAba() 
+        + atualizarPagina() 
+      
     }
     Iphone --> ReproduzirMusica
     Iphone --> AparelhoTelefonico
